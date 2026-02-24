@@ -142,7 +142,7 @@ const createTaskCard = (task) => {
     button.textContent = 'Concluir'
     button.onclick = () => markAsDone(task.id)
   } else {
-    button.innerHTML = '<img src="./assets/checked.svg" alt="Concluído">';
+    button.innerHTML = `<img src="assets/checked.svg" alt="Concluído">`
     button.disabled = true
   }
 
